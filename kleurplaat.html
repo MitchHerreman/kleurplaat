@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Kleurplaat</title>
+    <script src="kleurplaat.js" defer></script>
+    <link rel="stylesheet" href="kleurplaat.css">
+</head>
+
+<body>
+    <form id="kleurplaatForm">
+        <p>Hoogte: <input type="number" name="hoogte"> Breedte: <input type="number" name="breedte"></p>
+    </form>
+    <button id="maakKleurplaat">Maak kleurplaat</button>
+    <br>
+    <p>Kies kleur: <input type="color" value="#FF0000" id="colorpicker" name="colorpicker"></p>
+    <button id="kiesKleur">Kies kleur</button>
+    <br><br>
+    <table id="kleurplaat">
+    </table><br>
+    <button id="reset">Reset kleurplaat</button>
+    <button id="exportNaarJson">Exporteer als JSON</button>
+</body>
+
+</html>
